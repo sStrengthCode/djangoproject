@@ -60,5 +60,5 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         return False
 
 def about(request):
-    'ww'
+    'branch2'
     return render(request, 'blog/about.html', {'title': 'About'})
